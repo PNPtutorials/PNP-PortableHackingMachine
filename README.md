@@ -20,10 +20,3 @@ sudo ap PNP pnptutorials
 This command will create a AP named as "PNP" with Password = "pnptutorials"
 
 You are free to Clone and then modify the script.
-
-comment.py is commitning the change in .bashrc file by introducing # in front of ap making command.
-
-shutdown.py is commiting the change in .bashrc file by removing # in front of ap making command.
-
-NOTE: You have to shutdown your raspberryPi with shutdwon.py script so that it can commit the necceasary changes in .bashrc file.
-
