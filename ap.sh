@@ -11,4 +11,4 @@ sudo ifconfig wlan0 up
 sudo ifup wlan0
 sudo /etc/init.d/hostapd restart
 sudo /etc/init.d/udhcpd restart
-sudo service hostapd status
+#sudo service hostapd status
