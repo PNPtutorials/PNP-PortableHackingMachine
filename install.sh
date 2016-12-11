@@ -4,6 +4,7 @@ sudo apt-get install hostapd  udhcpd -y
 sudo apt-get install iptables -y
 sudo apt-get install zip unzip -y
 sudo apt-get install dconf-editor vino -y
+sudo apt-get install daemon
 sudo apt-get update
 
 #2. Configure DHCP----------------------------------------------
