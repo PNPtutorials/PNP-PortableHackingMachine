@@ -2,7 +2,6 @@ echo "**********************Performing update************************"
 apt-get update
 echo "**********************Installing Vino************************"
 apt-get -y install vino
-gsettings set org.gnome.Vino enabled true
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
 
