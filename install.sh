@@ -23,7 +23,6 @@ echo "VNC autorun on startup done"
 echo "****************Enabling autologin***************"
 
 mv /etc/lightdm/lightdm.conf  /etc/lightdm/lightdm.conf.bak
-mv /etc/pam.d/lightdm-autologin  /etc/pam.d/autologin.bak
 mv /etc/pam.d/lightdm-autologin  /etc/pam.d/lightdm-autologin.bak
-cp ./lightdm.conf /etc/lightdm/lightdm.conf
-cp ./lightdm-autologin /etc/pam.d/lightdm-autologin
+cp lightdm.conf /etc/lightdm/lightdm.conf
+cp lightdm-autologin /etc/pam.d/lightdm-autologin
