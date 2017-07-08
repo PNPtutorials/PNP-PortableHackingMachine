@@ -5,7 +5,9 @@ apt-get -y install vino
 gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
 
-echo "**********************Making autorun vnc script************************"
+echo "VNC server setup done"
+
+echo "**********************Making autorun VNC script************************"
 echo "[Desktop Entry]
 Encoding=UTF-8
 Type=Application
@@ -15,6 +17,8 @@ Exec=/usr/lib/vino/vino-server
 StartupNotify=false
 Terminal=false
 Hidden=false" > /root/.config/autostart/vino.desktop
+
+echo "VNC autorun on startup done"
 
 echo "****************Enabling autologin***************"
 
