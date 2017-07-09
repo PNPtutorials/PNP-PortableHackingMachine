@@ -6,6 +6,7 @@ gsettings set org.gnome.Vino prompt-enabled false
 gsettings set org.gnome.Vino require-encryption false
 
 echo "VNC server setup done"
+mkdir /root/.config/autostart
 
 echo "**********************Making autorun VNC script************************"
 echo "[Desktop Entry]
